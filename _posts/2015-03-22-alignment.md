@@ -10,6 +10,8 @@ post about a conversation I had with yet another friend of mine. I'll respond
 by clarifying my views and proposing a couple interesting theories about
 character alignment and harmony.
 
+First, some background.
+
 [the original]: http://gainesvillain.tumblr.com/post/114236681430
 [WP alignment]: https://en.wikipedia.org/wiki/Alignment_%28role-playing_games%29
 
@@ -123,15 +125,15 @@ It looks like a pattern is emerging. The more axes on which a character is
 defined, the less freedom that character will have to dance around the
 character plane. A Lawful Good hero, for instance, might avoid Chaotic
 characters who would otherwise help the hero bring about Good. The same hero
-might ignore evil characters who might be able to establish order.
+might ignore Evil characters who might be able to establish order.
 
 We can imagine that characters defined on both axes have more
-**responsibility** and are therefore less **flexible;** after all, wouldn't a
-character with a single goal have better focus on their **one goal** and be
+*responsibility* and are therefore less *flexible;* after all, wouldn't a
+character with a single goal have better focus on their *one goal* and be
 willing to go further to ensure their success?
 
 [tvt hero]: http://tvtropes.org/pmwiki/pmwiki.php/Main/HeroProtagonist
 
 ## Pitfalls of the Rectangular Character Plane
 
-_more once I wake up tomorrow_
+_more after my Monday mid-term_
