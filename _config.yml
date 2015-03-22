@@ -12,10 +12,10 @@ theme:
 
   # Header and footer text
   header_text: >
-     <p>Essays and Ramblings from Quint Guvernator</p>
+    <p>Essays and Ramblings from Quint Guvernator</p>
 
   footer_text: >
-   Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
+    <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons Attribution 4.0 International License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
 
   # Icons
   rss: false
