@@ -78,7 +78,6 @@ Let's say you're a writer and you want an interesting protagonist.
     One way to write the antihero.
   - **Neutral Good** is a pretty good choice because it keeps your character
     *flexible* while maintaining the Hero-Protagonist role.
-
   - **Lawful Neutral** is a great choice because it sets your protagonist up to
     display and perhaps overcome her initial naïvité. This also forces the
     protagonist to do evil things sometimes, which keeps the character *flexible.*
@@ -88,11 +87,10 @@ Let's say you're a writer and you want an interesting protagonist.
     *develop,* is *flexible,* and can be convinced to fight for the good guys if
     it's risky or dangerous or wild enough for them. The other way to write the
     antihero.
-  - **True Neutral** probably not suitable for a protagonist, since it means
+  - **True Neutral** is probably not suitable for a protagonist, since it means
     that the character breaks the scale in one way or another; they're either
     very self-serving or focused on something very specific. Can be hard to relate
-    to.
-
+    to, but can be fascinating if played right.
   - **Lawful Evil** can be fun and terrifying to write and watch. _House of
     Cards_ abuses this alignment to great effect.
   - **Chaotic Evil** is generally stupid and overdone. It's not suitable for a
