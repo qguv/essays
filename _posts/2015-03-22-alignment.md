@@ -17,8 +17,8 @@ The Web is full of completed 9-cell grids, classifying characters from a host of
 [the original]: http://gainesvillain.tumblr.com/post/114236681430
 [WP alignment]: https://en.wikipedia.org/wiki/Alignment_%28role-playing_games%29
 
-[breaking bad]: http://imgur.com/GXUfg9I
-[tos]: http://imgur.com/tfPGj6U
-[browsers]: http://imgur.com/3TwzDSP
-[got-simple]: http://imgur.com/NNPg7WR
-[got-complex]: http://imgur.com/HqbVUyB
+[breaking bad]: http://imgur.com/GXUfg9I.jpg
+[tos]: http://imgur.com/tfPGj6U.jpg
+[browsers]: http://imgur.com/3TwzDSP.jpg
+[got-simple]: http://imgur.com/NNPg7WR.jpg
+[got-complex]: http://imgur.com/HqbVUyB.jpg
