@@ -11,8 +11,7 @@ theme:
   description: "Essays and Ramblings from Quint Guvernator" # used by search engines
 
   # Header and footer text
-  header_text: >
-    <p>Essays and Ramblings from Quint Guvernator</p>
+  header_text: "from the scattered mind of Quint Guvernator"
 
   footer_text: >
     <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Essays &amp; Ramblings</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://qguv.github.io/essays" property="cc:attributionName" rel="cc:attributionURL">Quint Guvernator</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
