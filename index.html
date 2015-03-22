@@ -3,16 +3,18 @@ layout: default
 feature-img: "img/ancient.jpg"
 ---
 
-<div class="home{% if page.feature-img %} feature-image{% endif %}>">
-
-  <header style="background-image: url('{{ site.baseurl }}/{{ page.feature-img }}')">
-    <h1 class="title">{{ site.theme.title }}</h1>
-    {% if site.theme.header_text %}
-    <p class="meta">
-    {{ site.theme.header_text }}
-    </p>
-    {% endif %}
-  </header>
+<div class="home">
+  
+  <div{% if page.feature-img %} class="feature-image"{% endif %}>
+    <header class="visual" style="background-image: url('{{ site.baseurl }}/{{ page.feature-img }}')">
+      <h1 class="title">{{ site.theme.title }}</h1>
+      {% if site.theme.header_text %}
+      <p class="meta">
+      {{ site.theme.header_text }}
+      </p>
+      {% endif %}
+    </header>
+  </div>
 
   <div class="posts">
     {% for post in paginator.posts %}
