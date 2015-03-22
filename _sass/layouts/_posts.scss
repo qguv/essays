@@ -46,5 +46,6 @@ header {
   }
   .post-content {
     @extend %padding-regular;
+    text-align: justify;
   }
 }
