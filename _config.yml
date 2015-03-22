@@ -6,8 +6,8 @@ url: "http://qguv.github.io" # the base hostname & protocol for your site
 theme:
   # Meta
   title: "Essays & Ramblings"
-  avatar: avatar.png
-  gravatar: 240aa289e34a0649324254e318573bc4
+  avatar: me.jpg
+  gravatar:
   description: "Essays and Ramblings from Quint Guvernator" # used by search engines
 
   # Header and footer text
