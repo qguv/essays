@@ -12,9 +12,56 @@ layout: default
   <section class="post-content">{{ content }}</section>
 </article>
 
+{% if page.comments-issue %}
+<div class="comments">
+  <h2>Comments</h2>
+  <div id="header">
+    Want to leave a comment?
+    Visit <a href="https://github.com/qguv/essays/issues/{{ page.comments-issue }}">this post's issue page on Github</a>
+    and it will show up below.
+  </div>
+</div>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script type="text/javascript" src="http://datejs.googlecode.com/svn/trunk/build/date-en-US.js"></script>
+<script type="text/javascript">
+
+  function loadComments(comments) {
+    $.each(comments, function(_, comment) {
+      var cuser = comment.user.login;
+      var cuserlink = "https://www.github.com/" + comment.user.login;
+      var clink = "https://github.com/qguv/essays/issues/{{ page.comments-issue }}#issuecomment-" + comment.url.substring(comment.url.lastIndexOf("/")+1);
+      var cbody = comment.body_html;
+      var cavatarlink = comment.user.avatar_url;
+      var cdate = Date.parse(comment.created_at).toString("yyyy-MM-dd HH:mm:ss");
+
+      alert(cuser + "left a comment.");
+      $('.comments').append('<div class="comment"><div class="commentheader"><div class="commentgravatar">'
+        + '<img src="' + cavatarlink + '" alt="" width="20" height="20">'
+        + '</div>'
+        + '<a class="commentuser" href="' + cuserlink + '">' + cuser + '</a>'
+        + '<a class="commentdate" href="' + clink + '">' + cdate + '</a>'
+        + '</div>'
+        + '<div class="commentbody">' + cbody + '</div></div>'
+      );
+    });
+  }
+
+  $(document).ready(function() {
+    alert("loaded");
+    $.ajax("https://api.github.com/repos/qguv/essays/issues/{{ page.comments-issue }}/comments", {
+      headers: {Accept: "application/vnd.github.full+json"},
+      success: function(msg) { loadComments(msg); }
+    });
+  });
+
+</script>
+{% endif %}
+
 <!-- Disqus -->
 {% if site.theme.disqus_shortname %}
 <div class="comments">
   {% include disqus.html %}
 </div>
 {% endif %}
+

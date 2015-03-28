@@ -2,6 +2,7 @@
 layout: post
 title: Character Alignment
 feature-img: "img/kotor-evil.jpg"
+comments-issue: 1
 ---
 
 My friend [recently posted][the original] about [systems of alignment][WP
