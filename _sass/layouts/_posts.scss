@@ -53,3 +53,18 @@ div.commentary {
   margin-left: auto;
   margin-right: auto;
 }
+div.comment {
+  a {
+    color: white;
+    text-decoration: underline;
+  }
+  p {
+    padding: 0;
+    margin: 0;
+  }
+  background-color: $link-color;
+  color: white;
+  border-radius: 5px;
+  padding: 0.5em 1em;
+  margin-top: 0.5em;
+}

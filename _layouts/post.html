@@ -21,6 +21,7 @@ layout: default
     Visit <a href="https://github.com/qguv/essays/issues/{{ page.comments-issue }}">this post's issue page on Github</a>
     and it will show up below.
   </div>
+  <hr />
 </div>
 
 <script type="text/javascript" src="{{ "/js/jquery.min.js" | prepend: site.baseurl }}"></script>
@@ -30,17 +31,14 @@ layout: default
   function loadComments(comments) {
     $.each(comments, function(_, comment) {
       var cuser = comment.user.login;
-      var cuserlink = "https://www.github.com/" + comment.user.login;
       var clink = "https://github.com/qguv/essays/issues/{{ page.comments-issue }}#issuecomment-" + comment.url.substring(comment.url.lastIndexOf("/")+1);
       var cbody = comment.body_html;
-      var cavatarlink = comment.user.avatar_url;
-      var cdate = Date.parse(comment.created_at).toString("yyyy-MM-dd HH:mm:ss");
+      var cdate = Date.parse(comment.created_at).toString("yyyy-MM-dd");
+      var ctime = Date.parse(comment.created_at).toString("HH:mm:ss");
 
-      $('.commentary').append('<div class="comment"><div class="commentheader"><div class="commentgravatar">'
-        + '<img src="' + cavatarlink + '" alt="" width="20" height="20">'
-        + '</div>'
-        + '<a class="commentuser" href="' + cuserlink + '">' + cuser + '</a>'
-        + '<a class="commentdate" href="' + clink + '">' + cdate + '</a>'
+      $('.commentary').append('<div class="comment"><div class="commentheader">'
+        + '<a class="commentdate" href="' + clink + '">'
+        + cuser + ' on ' + cdate + ' at ' + ctime + '</a>'
         + '</div>'
         + '<div class="commentbody">' + cbody + '</div></div>'
       );
@@ -63,4 +61,3 @@ layout: default
   {% include disqus.html %}
 </div>
 {% endif %}
-
