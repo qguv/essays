@@ -13,17 +13,18 @@ layout: default
 </article>
 
 {% if page.comments-issue %}
-<div class="comments">
+<a name="commentary"></a>
+<div class="commentary">
   <h2>Comments</h2>
-  <div id="header">
+  <div id="comment-header">
     Want to leave a comment?
     Visit <a href="https://github.com/qguv/essays/issues/{{ page.comments-issue }}">this post's issue page on Github</a>
     and it will show up below.
   </div>
 </div>
 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-<script type="text/javascript" src="http://datejs.googlecode.com/svn/trunk/build/date-en-US.js"></script>
+<script type="text/javascript" src="{{ "/js/jquery.min.js" | prepend: site.baseurl }}"></script>
+<script type="text/javascript" src="{{ "/js/date.js" | prepend: site.baseurl }}"></script>
 <script type="text/javascript">
 
   function loadComments(comments) {
@@ -35,8 +36,7 @@ layout: default
       var cavatarlink = comment.user.avatar_url;
       var cdate = Date.parse(comment.created_at).toString("yyyy-MM-dd HH:mm:ss");
 
-      alert(cuser + "left a comment.");
-      $('.comments').append('<div class="comment"><div class="commentheader"><div class="commentgravatar">'
+      $('.commentary').append('<div class="comment"><div class="commentheader"><div class="commentgravatar">'
         + '<img src="' + cavatarlink + '" alt="" width="20" height="20">'
         + '</div>'
         + '<a class="commentuser" href="' + cuserlink + '">' + cuser + '</a>'
@@ -48,7 +48,6 @@ layout: default
   }
 
   $(document).ready(function() {
-    alert("loaded");
     $.ajax("https://api.github.com/repos/qguv/essays/issues/{{ page.comments-issue }}/comments", {
       headers: {Accept: "application/vnd.github.full+json"},
       success: function(msg) { loadComments(msg); }

@@ -58,11 +58,11 @@ differences between portrayals of Chaotic Good in each Star Trek series. And if
 I can elevate my Netflix habit to the domain of intellectual conversation, it'll
 at least make me feel better about it.
 
-[breaking bad]: http://imgur.com/GXUfg9I.jpg
-[tos]: http://imgur.com/tfPGj6U.jpg
-[browsers]: http://imgur.com/3TwzDSP.jpg
-[got-complex]: http://imgur.com/HqbVUyB.jpg
-[got-simple]: http://imgur.com/NNPg7WR.jpg
+[breaking bad]: https://i.imgur.com/GXUfg9I.jpg
+[tos]: http://i.imgur.com/tfPGj6U.jpg
+[browsers]: http://i.imgur.com/3TwzDSP.jpg
+[got-complex]: http://i.imgur.com/HqbVUyB.jpg
+[got-simple]: http://i.imgur.com/NNPg7WR.jpg
 
 ## Not All Alignments Are Equal
 
