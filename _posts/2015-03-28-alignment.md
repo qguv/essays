@@ -35,7 +35,7 @@ actually write or play characters this flat and predictable. 👍
 
 The Web is full of completed 9-cell grids, classifying characters from a host of
 media: films, books, television series. All the guides in this post are from
-various corners of the Internet&emdash;I didn't make these myself. Here's one
+various corners of the Internet&mdash;I didn't make these myself. Here's one
 from _Breaking Bad,_ one of very few shows whose main character isn't _Neutral
 Good_ or _Lawful Good:_
 
