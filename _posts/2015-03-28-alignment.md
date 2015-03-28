@@ -5,10 +5,9 @@ feature-img: "img/kotor-evil.jpg"
 ---
 
 My friend [recently posted][the original] about [systems of alignment][WP
-alignment] like those found in tabletop role-playing games. They talk in the
-post about a conversation I had with yet another friend of mine. I'll respond
-by clarifying my views and proposing a couple interesting theories about
-character alignment and harmony.
+alignment] like those found in tabletop role-playing games. They mention a
+conversation I had with someone else, and I'd like to clarify my views a bit
+and propose some theories about character alignment and harmony in fiction.
 
 First, some background.
 
@@ -19,16 +18,18 @@ First, some background.
 
 Gary Gygax's 1978 update to the Player's Handbook for the release of _Advanced
 Dungeons & Dragons_ introduced what we now know as the basic character
-alignment system. The vertical axis represents the obvious and clichéd
-Good/Evil dichotomy, but the horizontal axis represents a dichotomy between
-Lawful characters, those who act predictably or stay within the confines of
-what is acceptable, and Chaotic characters, those who don't.
+alignment system. The vertical axis represents a character's Good/Evil
+alignment, never precisely defined but relatively obvious. Good characters
+generally work for the common good, while Evil characters tend to focus on
+their own goals. The horizontal axis represents a dichotomy between Lawful
+characters, those who act predictably or stay within the confines of what is
+acceptable, and Chaotic characters, those who don't.
 
 The Web is full of completed 9-cell grids, classifying characters from a host
 of media: films, books, television series. All the guides in this post are from
-various corners of the Internet—I didn't make these myself. Here's one from
-_Breaking Bad,_ one of very few shows whose main character isn't _Neutral Good_
-or _Lawful Good:_
+various corners of the Internet&emdash;I didn't make these myself. Here's one
+from _Breaking Bad,_ one of very few shows whose main character isn't _Neutral
+Good_ or _Lawful Good:_
 
 ![Breaking Bad Alignments][breaking bad]
 
@@ -70,6 +71,7 @@ clearly Lawful Good territory, or she might be edgy and a little rogue but with
 a good heart, which would put her closer to Chaotic Good. If she has sidekicks
 with well-established Chaotic and Lawful tendencies, she may end up in the
 middle as Neutral Good, mediating between one Lawful and one Chaotic advisor.
+More on this later.
 
 There are a couple spots on the grid which don't lead to very good
 protagonists, mostly because they've become so clichéd or don't allow for
@@ -136,4 +138,37 @@ willing to go further to ensure their success?
 
 ## Pitfalls of the Rectangular Character Plane
 
-_more after my Monday mid-term_
+Returning to the example of a Neutral Good protagonist who [mediates between
+Lawful and Chaotic advisors][freud], there is clear potential for the sidekicks
+to develop as characters. The Lawful advisor could enter the story as Lawful
+Neutral and, the mediator-protagonist could, over the course of the work, bring
+the sidekick closer to Lawful Good. The protagonist can turn the Lawful advisor
+from a cold, calculating character to a more warm, relatable one.
+
+This is just as true for a Chaotic advisor-sidekick, where the protagonist can
+tame the character somewhat, teaching how use chaotic intrigue for good and
+avoid [corruption][tvt for good regret]. They will surely still show their
+chaotic side, and might end up at least being [tempted to stay][tvt choose to
+stay] in the land at the end of [the hero's journey][tvt hero's journey].
+
+We can see that **neutral characters have greater resolve along their only
+defined axis.** In other words, Chaotic Neutral characters are more Chaotic
+than others; Lawful Neutral characters more lawful; Neutral Good characters
+more Good; and Neutral Evil characters more evil. Without the distraction and
+responsibility of staying true to both axes, **neutral characters are more
+flexible**. It's not that Lawful Neutral characters, for example, can't do
+directly Good or directly Evil things, it's just that they don't do either for
+the sake of being Good or Evil. They instead do whatever needs to be done to
+accomplish their Lawful goals.
+
+[freud]: https://en.wikipedia.org/wiki/Id,_ego_and_super-ego
+[tvt for good regret]: http://tvtropes.org/pmwiki/pmwiki.php/Main/YouCouldHaveUsedYourPowersForGood
+[tvt choose to stay]: http://tvtropes.org/pmwiki/pmwiki.php/Main/IChooseToStay
+[tvt hero's journey]: http://tvtropes.org/pmwiki/pmwiki.php/Main/TheHerosJourney
+
+## A Better Geometric Distribution
+
+If a rectangle is flawed, what could be better? _A better rectangle_ or _an
+ellipse._
+
+
