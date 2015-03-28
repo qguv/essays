@@ -1,7 +1,6 @@
 article,
 .comments,
 div.feature-image {
-  @extend %padding-regular;
   border-bottom: 1px solid $border-color;
   width: 100%;
   float: left;
